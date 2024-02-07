@@ -1,0 +1,50 @@
+.bg {
+  margin: 2%;
+  padding: 1%;
+  background-color:#222222;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.r{
+border-right: 4px solid #eeeeee;
+margin-right: 2%;
+    padding-right: 2%;
+}
+
+.l{
+border-left: 4px solid #eeeeee;
+margin-left: 2%;
+    padding-left: 2%;
+}
+
+a{
+ color: #eeeeee;
+ text-decoration: none;
+ font-family: Arial;
+ font-size: 100%;
+ font-weight:bold;
+}
+.nav{
+	border: 4px solid #222222;
+    background-color:#222222;
+    display: flex;
+  flex-direction: row;
+
+}
+.right{
+ display: flex;
+  flex-direction: row-reverse;
+  flex: 50%;
+
+}
+.left{
+ display: flex;
+  flex-direction: row;
+  flex: 50%;
+  
+}
+ a:hover {
+  color:#D8BFD8;
+}
